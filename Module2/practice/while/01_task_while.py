@@ -3,3 +3,9 @@
 # Формат выходных данных: Выведите все числа, требуемые по условию задачи.
 
 # TODO: your code here
+number_1 = int(input("Введите число 1 "))
+number_2 = int(input("Введите число 2 "))
+
+while number_1 <= number_2:
+    print(number_1)
+    number_1 += 2
