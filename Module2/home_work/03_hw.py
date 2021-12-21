@@ -31,3 +31,10 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+cost = float(input("Введите цену товара "))
+count = 1
+all_cost = cost
+while count <= 20:
+    print(count, "%.2f" % all_cost, "Rub.")
+    all_cost = all_cost + cost
+    count += 1
