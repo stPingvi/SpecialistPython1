@@ -14,3 +14,9 @@
 #    #
 #    #
 ######
+side = int(input("Введите размер стороны квадрата "))
+hollow = side - 2
+print("#" * side)
+for i in range(hollow):
+    print("#" + ' ' * (hollow) + "#")
+print("#" * side)
