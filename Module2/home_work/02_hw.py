@@ -8,3 +8,12 @@
 # Например, 1 корова, 2 коровы, 5 коров, 125 коров.
 
 # TODO: your code here
+n = int(input("Кол-во коров = "))
+n_temp = n % 10
+
+if 2 <= n_temp <= 4:
+    print(n, " korovy")
+elif 5 <= n_temp <= 9 or n_temp == 0:
+    print(n, " korov")
+else:
+    print(n, " korova")
