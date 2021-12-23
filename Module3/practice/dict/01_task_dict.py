@@ -8,3 +8,8 @@ item = {"name": "Кроссовки", "price": "7540.5", "currency": "rub", "cou
 dollar_rate = 74.12
 
 # TODO: your code here
+item = {"name": "Кроссовки", "price": "7540.5", "currency": "rub", "count": "10"}
+dollar_rate = 74.12
+
+all_cost = (float(item["price"]) * int(item["count"]) / dollar_rate)
+print("Цена всех товаров ", item["name"], "в долларах = ", int(all_cost))
